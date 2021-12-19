@@ -1,0 +1,27 @@
+  .countries {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+  }
+  .legendThreshold {
+      font-size: 12px;
+      font-family: sans-serif;
+  }
+  .caption {
+      fill: #000;
+      text-anchor: start;
+      font-weight: bold;
+  }
+  #select {
+	  transform: translateY(0px); 
+	  font-size: 20px;
+	  right: 10px;
+	  width:100px;
+  }
+  #select option{
+  font-size: 30px;
+  width:150px; 
+  }
+  #selectmedal {
+	  right:90px;
+  }
