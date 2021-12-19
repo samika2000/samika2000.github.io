@@ -182,7 +182,7 @@ function onchange() {
 		svg.select(".legendThreshold")
 			.call(legend);
 		d3.queue()
-			.defer(d3.json, "http://enjalot.github.io/wwsd/data/world/world-110m.geojson")
+			.defer(d3.json, "https://enjalot.github.io/wwsd/data/world/world-110m.geojson")
 			.defer(d3.csv, filename, function(d) { 
 			data.set(d.code,+d.Silver);
 			})
@@ -207,7 +207,7 @@ function onchange() {
 		svg.select(".legendThreshold")
 			.call(legend);
 		d3.queue()
-			.defer(d3.json, "http://enjalot.github.io/wwsd/data/world/world-110m.geojson")
+			.defer(d3.json, "https://enjalot.github.io/wwsd/data/world/world-110m.geojson")
 			.defer(d3.csv, filename, function(d) { 
 			data.set(d.code,+d.Bronze);
 			})
@@ -232,7 +232,7 @@ function onchange() {
 		svg.select(".legendThreshold")
 			.call(legend);
 		d3.queue()
-			.defer(d3.json, "http://enjalot.github.io/wwsd/data/world/world-110m.geojson")
+			.defer(d3.json, "https://enjalot.github.io/wwsd/data/world/world-110m.geojson")
 			.defer(d3.csv, filename, function(d) { 
 			data.set(d.code,+d.total);
 			})
@@ -259,7 +259,7 @@ function onchange() {
 		svg.select(".legendThreshold")
 			.call(legend);
 		d3.queue()
-				.defer(d3.json, "http://enjalot.github.io/wwsd/data/world/world-110m.geojson")
+				.defer(d3.json, "https://enjalot.github.io/wwsd/data/world/world-110m.geojson")
 				.defer(d3.csv, filename, function(d) { 
 				data.set(d.code,+d.Gold);
 				})
@@ -402,7 +402,7 @@ function populate_map(newfile){
 		filename = newfile;
 		// Load external data and boot
 		//d3.queue()
-		//	.defer(d3.json, "http://enjalot.github.io/wwsd/data/world/world-110m.geojson")
+		//	.defer(d3.json, "https://enjalot.github.io/wwsd/data/world/world-110m.geojson")
 		//	.defer(d3.csv, filename, function(d) { 
 		//	data.set(d.code, +d.total); // "+" coerces string to num
 			//console.log(d);
